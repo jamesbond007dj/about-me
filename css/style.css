@@ -1,0 +1,214 @@
+body {
+    background-color: salmon; 
+    margin: 0 auto;
+    width: 1000px;
+    float: left;
+    
+   
+}
+
+header {
+    
+    background-color: salmon; 
+    color:rgb(179, 0, 0); 
+    float: left;
+    margin: 10px;
+    text-align : center;
+    top: 0px;
+    width: 1000px;
+
+}
+
+main {
+    background-color: salmon; 
+    color:rgb(179, 0, 0); 
+    margin: 10px;
+    float: left;
+    width: 1000px;
+   
+}
+
+section {
+    background-color: salmon; 
+    color:rgb(179, 0, 0); 
+    margin: 0px;
+    float: left;
+    width: 1000px;
+}
+
+div {
+    background-color: salmon; 
+    color:rgb(179, 0, 0); 
+    margin: 0px;
+    float: left;
+    width: 1000px;
+}
+
+
+footer {
+    background-color: salmon; 
+    color:rgb(179, 0, 0); 
+    margin-left: 110px;
+    float: left;
+    width: 900px;
+}
+
+
+ol {
+    column-count: 2;
+    column-rule: dotted 1px #333;
+    list-style-type: none;
+    text-align: center;
+    margin: 0px; 
+    padding: 0px;
+    background-color: rgb(236, 130, 130);
+    width: 1000px;
+}
+
+ul {
+    list-style-type: square  ;
+    margin-left: 200;
+    padding-left: 300px;
+    background-color: salmon;
+    top: 0;
+    text-align: left;
+}
+  
+li {
+    
+    padding-left: 200;
+    
+}
+  
+li a {
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: rgb(123, 100, 223);
+}
+  
+dl {
+    text-align: left;
+    padding-left: 300px;
+}
+
+dt {
+    text-align: left;
+    padding-left: 100px;
+    color :rgb(49, 2, 2);
+}
+
+dd {
+    t ext-align: left
+    padding-left: 300px;
+}
+
+h1 {
+    font-family:Arial, Helvetica, sans-serif; 
+    color:rgb(179, 0, 0); 
+    background-color: salmon;
+    text-align: center;
+    width: 900px;
+    height: 40px;
+    margin-top: 100px;
+    margin: 5px;
+    padding-top: 40px;
+    padding-left: 40px;
+    border-color: black;
+    border-spacing: 2px;
+    width: 900px;
+}
+h3 {
+    font-family:Arial, Helvetica, sans-serif; 
+    color:black; 
+    background-color: salmon;
+    text-align: center;
+    margin-top: 40px;
+    padding: 0px;
+    border-color: black;
+    border-spacing: 2px;
+    width: 1000px;
+
+}
+
+h4 {
+    font-family:Arial, Helvetica, sans-serif; 
+    color:black; 
+    background-color: salmon;
+    text-align: left;
+    margin-left: 0px;
+    width: 500px;
+    border-color: black;
+    border-spacing: 2px;
+    
+}
+
+h5 {
+    font-family:Arial, Helvetica, sans-serif; 
+    color:black; 
+    background-color: salmon;
+    text-align: left;
+    margin-left: 170px;
+    width: 700px;
+    border-color: black;
+    border-spacing: 2px;
+
+}
+    
+h6 {
+    font-family:Arial, Helvetica, sans-serif; 
+    color:black; 
+    background-color: salmon;
+    margin-left: 5px;
+    text-align: left;
+    width: 300px;
+   
+    
+    
+}
+
+p {
+    font-family:Arial, Helvetica, sans-serif; 
+    color:black; 
+    background-color: salmon;
+    width: 900px;
+    border-color: black;
+    border-spacing: 2px;
+    text-align: left;
+    padding-left: 150px;
+    
+}
+ul.sidenav {
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    background-color: rgb(230, 173, 167);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+  
+ul.sidenav li a {
+    display: block;
+    color: #000;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+   
+ul.sidenav li a.active {
+    background-color: #4CAF50;
+    color: salmon;
+}
+  
+ul.sidenav li a:hover:not(.active) {
+    background-color: #555;
+    color: salmon;
+}
+

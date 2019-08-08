@@ -59,3 +59,14 @@ if (strength.charAt(0) === 'N') {
 }
 
 console.log(strength);
+
+var prof = prompt (visitor + '! Guess how many years of work experience I have');
+prof = parseInt(prof);
+if (prof < 25 ) {
+  prompt(visitor + '! Not a good guess, Please increase your number');
+} else if ( prof > 25) {
+  prompt(visitor + '! Not a good guess, Please decrease your number');
+} else {
+  prompt(visitor + '! Good guess, Can you guess which company I have not applied to work? Amazon ; Filpa ; Disney ; Boing');
+}
+console.log(prof);
