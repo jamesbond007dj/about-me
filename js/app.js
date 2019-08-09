@@ -70,3 +70,47 @@ if (prof < 25 ) {
   prompt(visitor + '! Good guess, Can you guess which company I have not applied to work? Amazon ; Filpa ; Disney ; Boing');
 }
 console.log(prof);
+
+var talent = prompt('Guess whether I can play guitar or not? Yes/No').toLowerCase();
+
+switch (talent.charAt(0)) {
+case 'n':
+  console.log('talent = correct');
+  alert('I am not a Rockstar, but Yes I can play Guitar, ' + visitor + ' !' );
+  break;
+case 'y':
+  console.log('talent = wrong');
+  alert(+ visitor + '! it is not a good Guess');
+  break;
+default:
+  console.log('You typed wrong, i could not understand');
+  break;
+}
+
+var bestCitys = ['edinburgh', 'london', 'dublin', 'rome', 'venice', 'chicago', 'seattle', 'berlin', 'paris', 'orleans'];
+
+var Vacation = false;
+var numVacation = 1;
+
+while (Vacation === false && numVacation <= 6) {
+
+  var city = prompt( 'Can you guess which cities do I like to go to a vacation? you have 5 guesses');
+
+  for (var i = 0; i < bestCitys.length; i++) {
+
+    if (city.toLowerCase() === bestCitys[i]) {
+      alert(visitor + '! Correct, Superb!');
+      console.log('My vacation cities = correct');
+      Vacation = true;
+      break;
+    }
+
+  }
+
+  if (!Vacation) {
+    alert( visitor + '! Nope! There are more beautiful Cities!');
+    console.log('My vacation cities = wrong, user answered: ' + city);
+  }
+
+  numVacation++;
+}
