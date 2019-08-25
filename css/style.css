@@ -1,11 +1,12 @@
+
 body {
+    
     background-image: linear-gradient(270deg, #e9f0f5 0%, rgb(32, 155, 236) 100%);
     float: left;
     margin: 0 auto;
     width: 960px;
     
-    
-   
+       
 }
 
 header {
@@ -14,33 +15,39 @@ header {
     float: left;
     text-align : center;
     box-shadow: 0px 0px 50px rgb(253, 253, 253);
-    position: fixed;
     
-
-}
-
-main {
-
-margin-top: 500px;
-
+    
 }
 
 
 img {
 
     height:112px;
-   
     border-radius: 100px;
     float: left;
     object-fit:scale-down;
     text-shadow: 5px;
     width:100px;
-  
-
     margin-left: 200px;
-
     box-shadow: 3px 3px 2px rgb(239, 243, 245);
 }
+
+#edu {
+
+      
+    box-shadow: 3px 3px 5px rgb(239, 243, 245);
+    text-shadow: 3px 3px 5px rgb(239, 243, 245);
+    float: left;
+    font-size: 20px;
+    height:50px;
+    margin-left: 180px;
+    object-fit:scale-down;
+    padding: 10px;
+    width:50px;
+    
+    
+}
+
 
 
 footer {
@@ -63,7 +70,7 @@ ol {
     width: 1000px;
 }
 
-ul {
+#fun > ul {
     list-style-type: square  ;
     margin-left: 200;
     padding-left: 300px;
@@ -72,13 +79,13 @@ ul {
     text-align: left;
 }
   
-li {
+#fun > li {
     
     padding-left: 200;
     
 }
   
-li a {
+#fun > li a {
     display: block;
     color: rgb(17, 150, 226);
     text-shadow: 5px 5px 1px rgb(253, 253, 253);
@@ -87,7 +94,7 @@ li a {
     text-decoration: none;
 }
   
-li a:hover {
+#fun > li a:hover {
     text-shadow: 1px 1px 5px rgb(247, 246, 246);
     font-size: 20px;
     border-radius: 40px;
@@ -96,21 +103,68 @@ li a:hover {
 
 }
 
+#current {
+
+    color: rgb(20, 19, 19);
+    font-family: 'Baloo Tamma', cursive;
+    text-shadow: 5px 5px 5px rgb(48, 152, 236);
+}
+
+#work {
+    
+    font-family: 'Baloo Tamma', cursive;
+    list-style-type: square  ;
+    margin-left: 200;
+    padding-left: 300px;
+    color: rgb(10, 2, 2);
+    top: 0;
+    text-align: left;
+    text-shadow: 1px 1px 3px rgb(247, 246, 246);
+}
   
+
+#work > li {
+    
+    padding-left: 2px;
+
+}
+
+#skills{
+
+    margin-top: 100px;
+}
+
+canvas {
+
+    
+    border: dotted 2px, black;
+    font-family: 'Audiowide', cursive;
+    margin-left: 50px; 
+    margin-bottom: 20px;
+    width:50px;
+    height: 50px;
+    float: left;
+    
+}
+
+
 dl {
     text-align: left;
-    padding-left: 300px;
+    padding-left: 200px;
 }
 
 dt {
     text-align: left;
     padding-left: 100px;
-    color :rgb(49, 2, 2);
+    font-family: 'Audiowide', cursive;
 }
 
 dd {
     text-align: left;
-    padding-left: 300px;
+    font-family: 'Baloo Tamma', cursive;
+    padding-left: 200px;
+    color: red;
+    text-shadow: 1px 1px 3px rgb(247, 246, 246);
 }
 
 h1 {
@@ -122,8 +176,7 @@ h1 {
     padding-top: 100px;
     
     
-    padding-top: 20px;
-    
+       
     border-color: rgb(15, 118, 235);
     border-spacing: 2px;
     
@@ -131,7 +184,6 @@ h1 {
 h3 {
     font-family:Arial, Helvetica, sans-serif; 
     color:black; 
-   
     text-align: center;
     margin-top: 40px;
     padding: 0px;
@@ -168,7 +220,6 @@ h5 {
 h6 {
     font-family:Arial, Helvetica, sans-serif; 
     color:black; 
-   
     margin-left: 5px;
     text-align: left;
     width: 300px;
@@ -179,7 +230,7 @@ h6 {
 
 p {
     font-family:'Baloo Tamma', cursive;
-    color:rgb(3, 112, 236); 
+    color:rgb(3, 26, 53); 
     width: 900px;
     border-color: black;
     border-spacing: 2px;
