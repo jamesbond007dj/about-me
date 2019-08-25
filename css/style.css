@@ -1,52 +1,50 @@
 body {
-    background-color: salmon; 
-    margin: 0 auto;
-    width: 1000px;
+    background-image: linear-gradient(270deg, #e9f0f5 0%, rgb(32, 155, 236) 100%);
     float: left;
+    margin: 0 auto;
+    width: 960px;
+    
     
    
 }
 
 header {
     
-    background-color: salmon; 
-    color:rgb(179, 0, 0); 
+    background-image: linear-gradient(270deg, #e9f0f5 0%, rgb(32, 155, 236) 100%);
     float: left;
-    margin: 10px;
     text-align : center;
-    top: 0px;
-    width: 1000px;
+    box-shadow: 0px 0px 50px rgb(253, 253, 253);
+    position: fixed;
+    
 
 }
 
 main {
-    background-color: salmon; 
-    color:rgb(179, 0, 0); 
-    margin: 10px;
-    float: left;
-    width: 1000px;
+
+margin-top: 500px;
+
+}
+
+
+img {
+
+    height:112px;
    
-}
-
-section {
-    background-color: salmon; 
-    color:rgb(179, 0, 0); 
-    margin: 0px;
+    border-radius: 100px;
     float: left;
-    width: 1000px;
-}
+    object-fit:scale-down;
+    text-shadow: 5px;
+    width:100px;
+  
 
-div {
-    background-color: salmon; 
-    color:rgb(179, 0, 0); 
-    margin: 0px;
-    float: left;
-    width: 1000px;
+    margin-left: 200px;
+
+    box-shadow: 3px 3px 2px rgb(239, 243, 245);
 }
 
 
 footer {
-    background-color: salmon; 
+    
     color:rgb(179, 0, 0); 
     margin-left: 110px;
     float: left;
@@ -61,7 +59,7 @@ ol {
     text-align: center;
     margin: 0px; 
     padding: 0px;
-    background-color: rgb(236, 130, 130);
+   
     width: 1000px;
 }
 
@@ -69,7 +67,7 @@ ul {
     list-style-type: square  ;
     margin-left: 200;
     padding-left: 300px;
-    background-color: salmon;
+    
     top: 0;
     text-align: left;
 }
@@ -82,15 +80,22 @@ li {
   
 li a {
     display: block;
-    color: red;
+    color: rgb(17, 150, 226);
+    text-shadow: 5px 5px 1px rgb(253, 253, 253);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
   
 li a:hover {
-    background-color: rgb(123, 100, 223);
+    text-shadow: 1px 1px 5px rgb(247, 246, 246);
+    font-size: 20px;
+    border-radius: 40px;
+    color: rgb(238, 242, 245);
+    transition: 2s all;
+
 }
+
   
 dl {
     text-align: left;
@@ -104,29 +109,29 @@ dt {
 }
 
 dd {
-    t ext-align: left
+    text-align: left;
     padding-left: 300px;
 }
 
 h1 {
-    font-family:Arial, Helvetica, sans-serif; 
-    color:rgb(179, 0, 0); 
-    background-color: salmon;
-    text-align: center;
-    width: 900px;
-    height: 40px;
-    margin-top: 100px;
-    margin: 5px;
-    padding-top: 40px;
-    padding-left: 40px;
-    border-color: black;
+    font-family:'Audiowide', cursive;
+    color:rgb(58, 146, 248); 
+    display: inline;
+
+    margin-left:400px;
+    padding-top: 100px;
+    
+    
+    padding-top: 20px;
+    
+    border-color: rgb(15, 118, 235);
     border-spacing: 2px;
-    width: 900px;
+    
 }
 h3 {
     font-family:Arial, Helvetica, sans-serif; 
     color:black; 
-    background-color: salmon;
+   
     text-align: center;
     margin-top: 40px;
     padding: 0px;
@@ -139,7 +144,7 @@ h3 {
 h4 {
     font-family:Arial, Helvetica, sans-serif; 
     color:black; 
-    background-color: salmon;
+   
     text-align: left;
     margin-left: 0px;
     width: 500px;
@@ -151,7 +156,7 @@ h4 {
 h5 {
     font-family:Arial, Helvetica, sans-serif; 
     color:black; 
-    background-color: salmon;
+   
     text-align: left;
     margin-left: 170px;
     width: 700px;
@@ -163,7 +168,7 @@ h5 {
 h6 {
     font-family:Arial, Helvetica, sans-serif; 
     color:black; 
-    background-color: salmon;
+   
     margin-left: 5px;
     text-align: left;
     width: 300px;
@@ -173,23 +178,26 @@ h6 {
 }
 
 p {
-    font-family:Arial, Helvetica, sans-serif; 
-    color:black; 
-    background-color: salmon;
+    font-family:'Baloo Tamma', cursive;
+    color:rgb(3, 112, 236); 
     width: 900px;
     border-color: black;
     border-spacing: 2px;
-    text-align: left;
-    padding-left: 150px;
+    text-align: justify;
+    padding-left: 180px;
+    text-shadow: 1px 1px 3px rgb(247, 246, 246);
     
 }
 ul.sidenav {
+    background: rgb(32, 155, 236);
+    color: rgb(12, 109, 201);
     list-style-type: none;
     float: left;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 20px;
     margin: 0;
     padding: 0;
-    width: 100px;
-    background-color: rgb(230, 173, 167);
+    width: 150px;
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -197,18 +205,55 @@ ul.sidenav {
   
 ul.sidenav li a {
     display: block;
-    color: #000;
+    color: linear-gradient(270deg, #6bbaee 0%, rgb(247, 247, 247) 100%);
     padding: 16px 16px;
     text-decoration: none;
 }
    
 ul.sidenav li a.active {
-    background-color: #4CAF50;
-    color: salmon;
+    background: rgb(247, 247, 247);
+    color: rgb(12, 109, 201);
 }
   
 ul.sidenav li a:hover:not(.active) {
-    background-color: #555;
-    color: salmon;
+    background: rgb(32, 155, 236);
+    border: 6px rgb(139, 198, 243);
+    text-shadow: 1px 1px 5px rgb(247, 246, 246);
+    border-radius: 40px;
+    color: rgb(238, 242, 245);
+    transition: 2s all;
 }
 
+header > p {
+
+    font-family: 'Baloo Tamma', cursive;
+    width: 800px;
+    margin-left: 100px;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgb(247, 246, 246);
+}
+
+font-family: 'Pacifico', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Audiowide', cursive;
+font-family: 'Rock Salt', cursive;
+font-family: 'Cabin Sketch', cursive;
+font-family: 'Sedgwick Ave Display', cursive;
+font-family: 'Jacques Francois Shadow', cursive;
+font-family: 'Monofett', cursive;
+font-family: 'Griffy', cursive;
+font-family: 'Revalia', cursive;
+font-family: 'Dorsa', sans-serif;
+font-family: 'Nosifer', cursive;
+font-family: 'Sirin Stencil', cursive;
+font-family: 'Baloo Tamma', cursive;
+font-family: 'Gugi', cursive;
+font-family: 'Uncial Antiqua', cursive;
+font-family: 'Londrina Outline', cursive;
+font-family: 'Montserrat Subrayada', sans-serif;
+font-family: 'Frijole', cursive;
+font-family: 'Vast Shadow', cursive;
+font-family: 'Six Caps', sans-serif;
+font-family: 'Fredericka the Great', cursive;
