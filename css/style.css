@@ -1,169 +1,220 @@
+
 body {
-    background-color: salmon; 
-    margin: 0 auto;
-    width: 1000px;
+        
     float: left;
-    
-   
+    margin: 0 auto;
+    width: 960px;
 }
 
 header {
     
-    background-color: salmon; 
-    color:rgb(179, 0, 0); 
     float: left;
-    margin: 10px;
     text-align : center;
-    top: 0px;
-    width: 1000px;
-
+        
 }
 
-main {
-    background-color: salmon; 
-    color:rgb(179, 0, 0); 
-    margin: 10px;
+
+img {
+
+    
+    border-radius: 100px;
+    box-shadow: 3px 3px 2px rgb(239, 243, 245);
     float: left;
-    width: 1000px;
-   
+    height:112px;
+    margin-left: 200px;
+    object-fit:scale-down;
+    text-shadow: 5px;
+    width:100px;
+    
+    
 }
 
-section {
-    background-color: salmon; 
-    color:rgb(179, 0, 0); 
-    margin: 0px;
-    float: left;
-    width: 1000px;
-}
+#edu {
 
-div {
-    background-color: salmon; 
-    color:rgb(179, 0, 0); 
-    margin: 0px;
+    box-shadow: 3px 3px 5px rgb(239, 243, 245);
     float: left;
-    width: 1000px;
+    font-size: 20px;
+    height:50px;
+    margin-left: 180px;
+    object-fit:scale-down;
+    padding: 10px;
+    text-shadow: 3px 3px 5px rgb(239, 243, 245);
+    width:50px;
+        
 }
 
 
 footer {
-    background-color: salmon; 
+    
     color:rgb(179, 0, 0); 
-    margin-left: 110px;
     float: left;
+    margin-left: 200px;
     width: 900px;
 }
 
 
 ol {
     column-count: 2;
-    column-rule: dotted 1px #333;
     list-style-type: none;
-    text-align: center;
     margin: 0px; 
     padding: 0px;
-    background-color: rgb(236, 130, 130);
+    text-align: center;
     width: 1000px;
 }
 
-ul {
+#fun > ul {
     list-style-type: square  ;
     margin-left: 200;
     padding-left: 300px;
-    background-color: salmon;
-    top: 0;
     text-align: left;
 }
   
-li {
-    
+#fun > li {
+    font-family: 'Uncial Antiqua', cursive;
     padding-left: 200;
     
 }
   
-li a {
+#fun > li a {
+    color: rgb(17, 150, 226);
     display: block;
-    color: red;
-    text-align: center;
     padding: 14px 16px;
+    text-align: center;
     text-decoration: none;
+    text-shadow: 5px 5px 1px rgb(253, 253, 253);
 }
   
-li a:hover {
-    background-color: rgb(123, 100, 223);
+#fun > li a:hover {
+    color: rgb(248, 10, 22);
+    font-family: 'Audiowide', cursive;
+    font-size: 20px;
+    border-radius: 40px;
+    text-shadow: 1px 1px 5px rgb(247, 246, 246);
+    transition: 2s all;
+
 }
-  
-dl {
-    text-align: left;
+
+#current {
+
+    color: rgb(20, 19, 19);
+    font-family: 'Baloo Tamma', cursive;
+    text-shadow: 5px 5px 5px rgb(48, 152, 236);
+}
+
+#work {
+    
+    color: rgb(10, 2, 2);
+    font-family: 'Baloo Tamma', cursive;
+    list-style-type: square  ;
+    margin-left: 200;
     padding-left: 300px;
+    text-align: left;
+    text-shadow: 1px 1px 3px rgb(247, 246, 246);
+}
+  
+
+#work > li {
+    
+    padding-left: 2px;
+
+}
+
+#skills{
+
+    margin-top: 100px;
+}
+
+canvas {
+
+    
+    border: dotted 2px, black;
+    float: left;
+    font-family: 'Audiowide', cursive;
+    height: 50px;
+    margin-left: 50px; 
+    margin-bottom: 20px;
+    width:50px;
+    
+    
+    
+}
+
+
+dl {
+    padding-left: 200px;
+    text-align: left;
 }
 
 dt {
-    text-align: left;
+    font-family: 'Audiowide', cursive;
     padding-left: 100px;
-    color :rgb(49, 2, 2);
+    text-align: left;
+    
 }
 
 dd {
-    t ext-align: left
-    padding-left: 300px;
+    color: red;
+    font-family: 'Baloo Tamma', cursive;
+    padding-left: 200px;
+    text-align: left;
+    text-shadow: 1px 1px 3px rgb(247, 246, 246);
 }
 
 h1 {
-    font-family:Arial, Helvetica, sans-serif; 
-    color:rgb(179, 0, 0); 
-    background-color: salmon;
-    text-align: center;
-    width: 900px;
-    height: 40px;
-    margin-top: 100px;
-    margin: 5px;
-    padding-top: 40px;
-    padding-left: 40px;
-    border-color: black;
-    border-spacing: 2px;
-    width: 900px;
+    color:rgb(58, 146, 248); 
+    display: inline;
+    font-family:'Audiowide', cursive;
+    margin-left:700px;
+    padding-top: 100px;
+           
+        
+}
+
+h2 {
+    color:rgb(58, 146, 248); 
+    display: inline;
+    font-family:'Audiowide', cursive;
+    font-size: 15px;
+    margin-left:400px;
+    padding-top: 100px;
+
 }
 h3 {
-    font-family:Arial, Helvetica, sans-serif; 
+    
     color:black; 
-    background-color: salmon;
-    text-align: center;
+    font-family:'Audiowide', cursive;
     margin-top: 40px;
-    padding: 0px;
-    border-color: black;
-    border-spacing: 2px;
+    text-align: center;
     width: 1000px;
 
 }
 
 h4 {
-    font-family:Arial, Helvetica, sans-serif; 
     color:black; 
-    background-color: salmon;
-    text-align: left;
+    font-family:Arial, Helvetica, sans-serif; 
     margin-left: 0px;
+    text-align: left;
     width: 500px;
-    border-color: black;
-    border-spacing: 2px;
+    
     
 }
 
 h5 {
-    font-family:Arial, Helvetica, sans-serif; 
-    color:black; 
-    background-color: salmon;
+
+    clear: both;    
+    color:black;
+    display: inline;
+    font-size: 20px;
+    font-family:'Uncial Antiqua', cursive; 
+    margin-left: 60px;
+    padding: 80px;
     text-align: left;
-    margin-left: 170px;
-    width: 700px;
-    border-color: black;
-    border-spacing: 2px;
 
 }
     
 h6 {
-    font-family:Arial, Helvetica, sans-serif; 
     color:black; 
-    background-color: salmon;
+    font-family:Arial, Helvetica, sans-serif; 
     margin-left: 5px;
     text-align: left;
     width: 300px;
@@ -173,42 +224,102 @@ h6 {
 }
 
 p {
-    font-family:Arial, Helvetica, sans-serif; 
-    color:black; 
-    background-color: salmon;
-    width: 900px;
-    border-color: black;
-    border-spacing: 2px;
-    text-align: left;
-    padding-left: 150px;
+    color:rgb(5, 83, 173); 
     
+       
+    border-color: rgb(247, 7, 7);
+    border-spacing: 2px;
+    font-family:'Baloo Tamma', cursive;
+    padding-left: 180px;
+    text-align: justify;
+    text-shadow: 1px 1px 3px rgb(247, 246, 246);
+    width: 860px;
+}
+
+.edu {
+   
+    color:rgb(231, 8, 8); 
+    border-color: rgb(247, 7, 7);
+    border-spacing: 2px;
+    font-family:'Baloo Tamma', cursive;
+    padding-left: 180px;
+    text-align: justify;
+    text-shadow: 1px 1px 3px rgb(247, 246, 246);
+    width: 900px;
 }
 ul.sidenav {
-    list-style-type: none;
+    
+    color: rgb(8, 125, 235);
     float: left;
-    margin: 0;
-    padding: 0;
-    width: 100px;
-    background-color: rgb(230, 173, 167);
-    position: fixed;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 20px;
     height: 100%;
+    list-style-type: none;
+    margin: 0;
     overflow: auto;
+    padding: 0;
+    position: fixed;
+    width: 150px;
+    
 }
   
 ul.sidenav li a {
+    color: red;
     display: block;
-    color: #000;
     padding: 16px 16px;
     text-decoration: none;
 }
    
 ul.sidenav li a.active {
-    background-color: #4CAF50;
-    color: salmon;
+    color: rgb(12, 109, 201);
+    background: rgb(247, 247, 247);
+    
 }
   
 ul.sidenav li a:hover:not(.active) {
-    background-color: #555;
-    color: salmon;
+    color: rgb(252, 252, 252);
+    background: rgb(182, 188, 192);
+    border: 6px rgb(154, 159, 163);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(182, 188, 192);
+    text-shadow: 1px 1px 5px rgb(247, 246, 246);
+    transition: 1s all;
+}
+
+header > p {
+
+    font-family: 'Baloo Tamma', cursive;
+    margin-left: 100px;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgb(247, 246, 246);
+    width: 800px;
+    z-index: 2;
+}
+
+#myVideo {
+
+    bottom: 0;
+    height: auto; 
+    min-width: 100%; 
+    min-height: 100%;
+    opacity: 0.1;
+    position: fixed;
+    right: 0; 
+    width: auto; 
+    z-index: -100;
+   
+}
+  
+#Video {
+    height: auto;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    opacity: 0.2;
+    position: fixed;
+    right: 0; 
+    width: auto; 
+    z-index: -100;
+    
 }
 
