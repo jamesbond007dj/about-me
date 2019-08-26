@@ -44,6 +44,7 @@ img {
 }
 
 
+
 footer {
     
     color:rgb(179, 0, 0); 
@@ -55,6 +56,7 @@ footer {
 
 ol {
     column-count: 2;
+    
     list-style-type: none;
     margin: 0px; 
     padding: 0px;
@@ -252,7 +254,7 @@ ul.sidenav {
     color: rgb(8, 125, 235);
     float: left;
     font-family: 'Cabin Sketch', cursive;
-    font-size: 20px;
+    font-size: 18px;
     height: 100%;
     list-style-type: none;
     margin: 0;
