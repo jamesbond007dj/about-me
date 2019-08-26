@@ -55,7 +55,6 @@ footer {
 
 ol {
     column-count: 2;
-    column-rule: dotted 1px #333;
     list-style-type: none;
     margin: 0px; 
     padding: 0px;
