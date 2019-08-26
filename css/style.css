@@ -1,60 +1,54 @@
 
 body {
-    
-    background-image: linear-gradient(270deg, #e9f0f5 0%, rgb(32, 155, 236) 100%);
+        
     float: left;
     margin: 0 auto;
     width: 960px;
-    
-       
 }
 
 header {
     
-    background-image: linear-gradient(270deg, #e9f0f5 0%, rgb(32, 155, 236) 100%);
     float: left;
     text-align : center;
-    box-shadow: 0px 0px 50px rgb(253, 253, 253);
-    
-    
+        
 }
 
 
 img {
 
-    height:112px;
+    
     border-radius: 100px;
+    box-shadow: 3px 3px 2px rgb(239, 243, 245);
     float: left;
+    height:112px;
+    margin-left: 200px;
     object-fit:scale-down;
     text-shadow: 5px;
     width:100px;
-    margin-left: 200px;
-    box-shadow: 3px 3px 2px rgb(239, 243, 245);
+    
+    
 }
 
 #edu {
 
-      
     box-shadow: 3px 3px 5px rgb(239, 243, 245);
-    text-shadow: 3px 3px 5px rgb(239, 243, 245);
     float: left;
     font-size: 20px;
     height:50px;
     margin-left: 180px;
     object-fit:scale-down;
     padding: 10px;
+    text-shadow: 3px 3px 5px rgb(239, 243, 245);
     width:50px;
-    
-    
+        
 }
-
 
 
 footer {
     
     color:rgb(179, 0, 0); 
-    margin-left: 110px;
     float: left;
+    margin-left: 200px;
     width: 900px;
 }
 
@@ -63,10 +57,9 @@ ol {
     column-count: 2;
     column-rule: dotted 1px #333;
     list-style-type: none;
-    text-align: center;
     margin: 0px; 
     padding: 0px;
-   
+    text-align: center;
     width: 1000px;
 }
 
@@ -74,31 +67,30 @@ ol {
     list-style-type: square  ;
     margin-left: 200;
     padding-left: 300px;
-    
-    top: 0;
     text-align: left;
 }
   
 #fun > li {
-    
+    font-family: 'Uncial Antiqua', cursive;
     padding-left: 200;
     
 }
   
 #fun > li a {
-    display: block;
     color: rgb(17, 150, 226);
-    text-shadow: 5px 5px 1px rgb(253, 253, 253);
-    text-align: center;
+    display: block;
     padding: 14px 16px;
+    text-align: center;
     text-decoration: none;
+    text-shadow: 5px 5px 1px rgb(253, 253, 253);
 }
   
 #fun > li a:hover {
-    text-shadow: 1px 1px 5px rgb(247, 246, 246);
+    color: rgb(248, 10, 22);
+    font-family: 'Audiowide', cursive;
     font-size: 20px;
     border-radius: 40px;
-    color: rgb(238, 242, 245);
+    text-shadow: 1px 1px 5px rgb(247, 246, 246);
     transition: 2s all;
 
 }
@@ -112,12 +104,11 @@ ol {
 
 #work {
     
+    color: rgb(10, 2, 2);
     font-family: 'Baloo Tamma', cursive;
     list-style-type: square  ;
     margin-left: 200;
     padding-left: 300px;
-    color: rgb(10, 2, 2);
-    top: 0;
     text-align: left;
     text-shadow: 1px 1px 3px rgb(247, 246, 246);
 }
@@ -138,88 +129,93 @@ canvas {
 
     
     border: dotted 2px, black;
+    float: left;
     font-family: 'Audiowide', cursive;
+    height: 50px;
     margin-left: 50px; 
     margin-bottom: 20px;
     width:50px;
-    height: 50px;
-    float: left;
+    
+    
     
 }
 
 
 dl {
-    text-align: left;
     padding-left: 200px;
+    text-align: left;
 }
 
 dt {
-    text-align: left;
-    padding-left: 100px;
     font-family: 'Audiowide', cursive;
+    padding-left: 100px;
+    text-align: left;
+    
 }
 
 dd {
-    text-align: left;
+    color: red;
     font-family: 'Baloo Tamma', cursive;
     padding-left: 200px;
-    color: red;
+    text-align: left;
     text-shadow: 1px 1px 3px rgb(247, 246, 246);
 }
 
 h1 {
-    font-family:'Audiowide', cursive;
     color:rgb(58, 146, 248); 
     display: inline;
+    font-family:'Audiowide', cursive;
+    margin-left:700px;
+    padding-top: 100px;
+           
+        
+}
 
+h2 {
+    color:rgb(58, 146, 248); 
+    display: inline;
+    font-family:'Audiowide', cursive;
+    font-size: 15px;
     margin-left:400px;
     padding-top: 100px;
-    
-    
-       
-    border-color: rgb(15, 118, 235);
-    border-spacing: 2px;
-    
+
 }
 h3 {
-    font-family:Arial, Helvetica, sans-serif; 
+    
     color:black; 
-    text-align: center;
+    font-family:'Audiowide', cursive;
     margin-top: 40px;
-    padding: 0px;
-    border-color: black;
-    border-spacing: 2px;
+    text-align: center;
     width: 1000px;
 
 }
 
 h4 {
-    font-family:Arial, Helvetica, sans-serif; 
     color:black; 
-   
-    text-align: left;
+    font-family:Arial, Helvetica, sans-serif; 
     margin-left: 0px;
+    text-align: left;
     width: 500px;
-    border-color: black;
-    border-spacing: 2px;
+    
     
 }
 
 h5 {
-    font-family:Arial, Helvetica, sans-serif; 
-    color:black; 
-   
+
+    clear: both;    
+    color:black;
+    display: inline;
+    font-size: 20px;
+    font-family:'Uncial Antiqua', cursive; 
+    margin-left: 60px;
+    padding: 80px;
     text-align: left;
-    margin-left: 170px;
-    width: 700px;
-    border-color: black;
-    border-spacing: 2px;
 
 }
     
 h6 {
-    font-family:Arial, Helvetica, sans-serif; 
     color:black; 
+    font-family:Arial, Helvetica, sans-serif; 
     margin-left: 5px;
     text-align: left;
     width: 300px;
@@ -229,82 +225,102 @@ h6 {
 }
 
 p {
-    font-family:'Baloo Tamma', cursive;
-    color:rgb(3, 26, 53); 
-    width: 900px;
-    border-color: black;
-    border-spacing: 2px;
-    text-align: justify;
-    padding-left: 180px;
-    text-shadow: 1px 1px 3px rgb(247, 246, 246);
+    color:rgb(5, 83, 173); 
     
+       
+    border-color: rgb(247, 7, 7);
+    border-spacing: 2px;
+    font-family:'Baloo Tamma', cursive;
+    padding-left: 180px;
+    text-align: justify;
+    text-shadow: 1px 1px 3px rgb(247, 246, 246);
+    width: 860px;
+}
+
+.edu {
+   
+    color:rgb(231, 8, 8); 
+    border-color: rgb(247, 7, 7);
+    border-spacing: 2px;
+    font-family:'Baloo Tamma', cursive;
+    padding-left: 180px;
+    text-align: justify;
+    text-shadow: 1px 1px 3px rgb(247, 246, 246);
+    width: 900px;
 }
 ul.sidenav {
-    background: rgb(32, 155, 236);
-    color: rgb(12, 109, 201);
-    list-style-type: none;
+    
+    color: rgb(8, 125, 235);
     float: left;
     font-family: 'Cabin Sketch', cursive;
     font-size: 20px;
-    margin: 0;
-    padding: 0;
-    width: 150px;
-    position: fixed;
     height: 100%;
+    list-style-type: none;
+    margin: 0;
     overflow: auto;
+    padding: 0;
+    position: fixed;
+    width: 150px;
+    
 }
   
 ul.sidenav li a {
+    color: red;
     display: block;
-    color: linear-gradient(270deg, #6bbaee 0%, rgb(247, 247, 247) 100%);
     padding: 16px 16px;
     text-decoration: none;
 }
    
 ul.sidenav li a.active {
-    background: rgb(247, 247, 247);
     color: rgb(12, 109, 201);
+    background: rgb(247, 247, 247);
+    
 }
   
 ul.sidenav li a:hover:not(.active) {
-    background: rgb(32, 155, 236);
-    border: 6px rgb(139, 198, 243);
+    color: rgb(252, 252, 252);
+    background: rgb(182, 188, 192);
+    border: 6px rgb(154, 159, 163);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(182, 188, 192);
     text-shadow: 1px 1px 5px rgb(247, 246, 246);
-    border-radius: 40px;
-    color: rgb(238, 242, 245);
-    transition: 2s all;
+    transition: 1s all;
 }
 
 header > p {
 
     font-family: 'Baloo Tamma', cursive;
-    width: 800px;
     margin-left: 100px;
     text-align: center;
     text-shadow: 1px 1px 3px rgb(247, 246, 246);
+    width: 800px;
+    z-index: 2;
 }
 
-font-family: 'Pacifico', cursive;
-font-family: 'Kalam', cursive;
-font-family: 'Kaushan Script', cursive;
-font-family: 'Luckiest Guy', cursive;
-font-family: 'Audiowide', cursive;
-font-family: 'Rock Salt', cursive;
-font-family: 'Cabin Sketch', cursive;
-font-family: 'Sedgwick Ave Display', cursive;
-font-family: 'Jacques Francois Shadow', cursive;
-font-family: 'Monofett', cursive;
-font-family: 'Griffy', cursive;
-font-family: 'Revalia', cursive;
-font-family: 'Dorsa', sans-serif;
-font-family: 'Nosifer', cursive;
-font-family: 'Sirin Stencil', cursive;
-font-family: 'Baloo Tamma', cursive;
-font-family: 'Gugi', cursive;
-font-family: 'Uncial Antiqua', cursive;
-font-family: 'Londrina Outline', cursive;
-font-family: 'Montserrat Subrayada', sans-serif;
-font-family: 'Frijole', cursive;
-font-family: 'Vast Shadow', cursive;
-font-family: 'Six Caps', sans-serif;
-font-family: 'Fredericka the Great', cursive;
+#myVideo {
+
+    bottom: 0;
+    height: auto; 
+    min-width: 100%; 
+    min-height: 100%;
+    opacity: 0.1;
+    position: fixed;
+    right: 0; 
+    width: auto; 
+    z-index: -100;
+   
+}
+  
+#Video {
+    height: auto;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    opacity: 0.2;
+    position: fixed;
+    right: 0; 
+    width: auto; 
+    z-index: -100;
+    
+}
+

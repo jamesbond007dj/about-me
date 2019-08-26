@@ -1,24 +1,27 @@
 'use strict';
 
+var video = document.getElementById("myVideo");
+
 var ctx = document.getElementById('chart').getContext('2d');
 
 var allData = [
-  {name:'RESET', years: 3, },
-  {name:'NAVAL', years: 1,}, 
-  {name:'ALFER', years:3, }, 
-  {name:'AKFAN', years: 1, },
-  {name:'FILPA TR', years: 6, },
-  {name:'FILPA USA', years: 8, },];
+  
+  {name:'BOATING', percent: 2,}, 
+  {name:'PHOTOGRAPY', percent:8, }, 
+  {name:'STRATEGY GAMES',  percent: 12, },
+  {name:'TRAVEL', percent: 18, },
+  {name:'BIKING',  percent: 25, },
+  {name:'MUSIC&GUITARS',  percent: 35, },];
 
 var labels = [];
 var data = [];
-var colors = ['yellow', 'blue', 'navy', 'salmon', 'orange', 'red'];
+var colors = ['yellow', 'blue', 'pink', 'salmon', 'orange', 'red'];
 
 
 for (var i = 0; i < allData.length; i++) {
  
   labels.push(allData[i].name);
-  data.push(allData[i].years);
+  data.push(allData[i].percent);
   };
 
 
@@ -30,8 +33,7 @@ function makeChart(data, labels) {
 
   var chart = new Chart(ctx, {
 
-    
-    type: 'doughnut',
+      type: 'doughnut',
 
       data: {
 
@@ -39,7 +41,7 @@ function makeChart(data, labels) {
         
       datasets: [{
 
-        label: 'WORK EXPERIENCE',
+        label: 'hobby',
 
         backgroundColor: colors,
 
@@ -56,7 +58,15 @@ function makeChart(data, labels) {
 
     },
 
-    options: {}
+    options: {
+      legend: {
+          display: true,
+          labels: {
+              fontColor: 'rgb(255, 99, 132)',
+              
+          }
+      }
+  }
 
   });
 
